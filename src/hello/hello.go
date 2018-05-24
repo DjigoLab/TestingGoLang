@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+    "fmt" 
+    )
 
-func main() {
-    fmt.Printf("Hello World from Antonio Djigo\n")
+func sum(x int, y int) int {
+    return x+y
 }
+func main() {
+    
+fmt.Println(sum(32,32))}
